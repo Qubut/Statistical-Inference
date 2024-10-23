@@ -1,0 +1,240 @@
+Converting parsed Rd's to LaTeX 
+Creating pdf output from LaTeX ...
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/bk10.clo))
+(/nix/store/9bkdh8m3q5a4y8jkk57ymqqcvxi7va9x-R-4.3.3/lib/R/share/texmf/tex/late
+x/Rd.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/ifthen.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/longtable.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/bm.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/alltt.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/verbatim.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/url/url.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/textcomp.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amstext.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsgen.sty))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsbsy.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsopn.sty))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amsfonts.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amssymb.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/eucal.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/iftex.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/fontenc.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/psnfss/times.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/color.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/color.cfg)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-def/pdftex.def)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/mathcolor.ltx))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hyperref.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/keyval.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/kvsetkeys/kvsetkeys.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/kvdefinekeys/kvdefinekeys.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/pdfescape/pdfescape.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/ltxcmds/ltxcmds.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/pdftexcmds/pdftexcmds.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/infwarerr/infwarerr.sty)))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hycolor/hycolor.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/auxhook/auxhook.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/nameref.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/refcount/refcount.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/gettitlestring/gettitlestring.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/kvoptions/kvoptions.sty)))
+
+! LaTeX Error: File `etoolbox.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.117 \def
+          \Hy@Error{\PackageError{hyperref}}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on Rd2.log.
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  unable to run pdflatex on 'Rd2.tex'
+LaTeX errors:
+! LaTeX Error: File `etoolbox.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+! Emergency stop.
+<read *> 
+         
+l.117 \def
+          \Hy@Error{\PackageError{hyperref}}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/nixos.org) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/bk10.clo))
+(/nix/store/9bkdh8m3q5a4y8jkk57ymqqcvxi7va9x-R-4.3.3/lib/R/share/texmf/tex/late
+x/Rd.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/ifthen.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/longtable.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/bm.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/alltt.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/tools/verbatim.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/url/url.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/textcomp.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amstext.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsgen.sty))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsbsy.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsmath/amsopn.sty))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amsfonts.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/amssymb.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/amsfonts/eucal.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/iftex/iftex.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/base/fontenc.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/psnfss/times.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/color.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-cfg/color.cfg)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics-def/pdftex.def)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/mathcolor.ltx))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/hyperref.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/graphics/keyval.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/kvsetkeys/kvsetkeys.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/kvdefinekeys/kvdefinekeys.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/pdfescape/pdfescape.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/ltxcmds/ltxcmds.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/pdftexcmds/pdftexcmds.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/infwarerr/infwarerr.sty)))
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hycolor/hycolor.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/auxhook/auxhook.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/hyperref/nameref.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/refcount/refcount.sty)
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/gen
+eric/gettitlestring/gettitlestring.sty
+(/nix/store/7d8r31xdhlwq447ffyclwdzjv1hxbbaw-texlive-2023-env-texmfdist/tex/lat
+ex/kvoptions/kvoptions.sty)))
+
+! LaTeX Error: File `etoolbox.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.117 \def
+          \Hy@Error{\PackageError{hyperref}}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on Rd2.log.
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  unable to run pdflatex on 'Rd2.tex'
+LaTeX errors:
+! LaTeX Error: File `etoolbox.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+! Emergency stop.
+<read *> 
+         
+l.117 \def
+          \Hy@Error{\PackageError{hyperref}}^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Error in running tools::texi2pdf()
+You may want to clean up by 'rm -Rf /tmp/RtmpIGbBPi/Rd2pdf33c5e4af1aea'

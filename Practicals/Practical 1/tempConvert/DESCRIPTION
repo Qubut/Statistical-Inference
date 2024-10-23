@@ -1,0 +1,11 @@
+Package: tempConvert
+Type: Package
+Title: temp convert
+Version: 0.1.0
+Author: A.Ahmed
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Converts temps from °C to °F and vice versa.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1

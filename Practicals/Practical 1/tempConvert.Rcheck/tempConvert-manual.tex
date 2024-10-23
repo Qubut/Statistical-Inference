@@ -1,0 +1,75 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `tempConvert'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {tempConvert: temp convert}}}{}
+\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{temp convert}
+\item[Version]\AsIs{0.1.0}
+\item[Author]\AsIs{A.Ahmed}
+\item[Maintainer]\AsIs{The package maintainer }\email{yourself@somewhere.net}\AsIs{}
+\item[Description]\AsIs{Converts temps from °C to °F and vice versa.}
+\item[License]\AsIs{MIT}
+\item[Encoding]\AsIs{UTF-8}
+\item[RoxygenNote]\AsIs{7.3.1}
+\item[NeedsCompilation]\AsIs{no}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{to\_c}{Convert Fahrenheit to Celsius}{to.Rul.c}
+%
+\begin{Description}
+This function converts a temperature from Fahrenheit to Celsius.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+to_c(f)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{f}] A numeric value representing the temperature in Fahrenheit.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+The temperature in Celsius.
+\end{Value}
+\inputencoding{utf8}
+\HeaderA{to\_f}{Convert Celsius to Fahrenheit}{to.Rul.f}
+%
+\begin{Description}
+This function converts a temperature from Celsius to Fahrenheit.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+to_f(c)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{c}] A numeric value representing the temperature in Celsius.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+The temperature in Fahrenheit.
+\end{Value}
+\printindex{}
+\end{document}

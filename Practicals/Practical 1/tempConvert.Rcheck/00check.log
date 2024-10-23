@@ -1,0 +1,74 @@
+* using log directory ‘/home/falcon/Notes/Uni/Statistical Inference/Practicals/tempConvert.Rcheck’
+* using R version 4.3.3 (2024-02-29)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* R was compiled by
+    gcc (GCC) 13.2.0
+    GNU Fortran (GCC) 13.2.0
+* running under: NixOS 24.05 (Uakari)
+* using session charset: UTF-8
+* checking for file ‘tempConvert/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘tempConvert’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... WARNING
+Found the following file with a non-portable file name:
+  R/Pratical 1_3.R
+These are not fully portable file names.
+See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘tempConvert’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+License components which are templates and need '+ file LICENSE':
+  MIT
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+LaTeX errors found:
+! LaTeX Error: File `inconsolata.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+! Emergency stop.
+<read *> 
+         
+l.303 ^^M
+         
+!  ==> Fatal error occurred, no output PDF file produced!
+* checking PDF version of manual without index ... ERROR
+* DONE
+Status: 1 ERROR, 2 WARNINGs, 1 NOTE
